@@ -87,7 +87,7 @@ Clone the repository and colcon build:
 
 ```bash
     cd <ros2_ws>
-    git --recursive clone https://github.com/Ericsii/FAST_LIO.git
+    git clone --recursive https://github.com/Ericsii/FAST_LIO.git
     cd ..
     colcon build --symlink-install
     . ./install/setup.bash # use setup.zsh if use zsh
